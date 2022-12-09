@@ -13,7 +13,7 @@ const siteConfig = {
     projectName: "tpdns",
     organizationName: "ytmo",
     trailingSlash: true,
-    favicon: "img/favicon.png",
+    favicon: "img/favicon.ico",
     scripts: ["https://platform.twitter.com/widgets.js"],
     presets: [
         [
