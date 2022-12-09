@@ -62,12 +62,6 @@ const siteConfig = {
     ],
     plugins: [
         [
-            "@docusaurus/plugin-client-redirects",
-            {
-                redirects: redirectJson.redirects,
-            },
-        ],
-        [
             "docusaurus-plugin-copy",
             {
                 id: "Copy Workers",
@@ -273,7 +267,7 @@ const siteConfig = {
                     title: "__SOCIAL",
                     items: [
                         {
-                            href: "https://github.com/refinedev/refine",
+                            href: "https://github.com/ytmo",
                             label: "github",
                         },
                         {
@@ -281,11 +275,11 @@ const siteConfig = {
                             label: "discord",
                         },
                         {
-                            href: "https://reddit.com/r/refine",
+                            href: "https://reddit.com/r/tomsproject",
                             label: "reddit",
                         },
                         {
-                            href: "https://twitter.com/refine_dev",
+                            href: "https://twitter.com/zptmo",
                             label: "twitter",
                         },
                         {
