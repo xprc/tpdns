@@ -1,8 +1,5 @@
 /**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+ * Copyright (c) 2017-present, TomsProject, Inc.
  */
 
 require("dotenv").config();
@@ -11,14 +8,14 @@ const redirectJson = require("./redirects.json");
 
 /** @type {import('@docusaurus/types/src/index').DocusaurusConfig} */
 const siteConfig = {
-    title: "refine",
-    tagline: "Build your React-based CRUD applications, without constraints",
-    url: "https://refine.dev",
+    title: "TPDNS",
+    tagline: "Next Generation DNS Service",
+    url: "https://ttdns.net",
     baseUrl: "/",
-    projectName: "refine",
-    organizationName: "refinedev",
+    projectName: "tpdns",
+    organizationName: "ytmo",
     trailingSlash: true,
-    favicon: "img/refine_favicon.png",
+    favicon: "img/favicon.png",
     scripts: ["https://platform.twitter.com/widgets.js"],
     presets: [
         [
