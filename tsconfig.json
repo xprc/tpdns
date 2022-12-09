@@ -1,9 +1,9 @@
 {
-    "extends": "@tsconfig/docusaurus/tsconfig.json",
-    "include": ["src/"],
-    "exclude": ["node_modules", "./plugins/docgen.js", "./plugins/docgen.ts"],
+    "extends": "./tsconfig.build.json",
+    "include": ["packages", "example"],
     "compilerOptions": {
-        "types": ["node", "@docusaurus/module-type-aliases", "@types/gtag.js"],
-        "resolveJsonModule": true
+        "allowJs": false,
+        "baseUrl": ".",
+        "typeRoots": ["./node_modules/@types", "./types"]
     }
 }

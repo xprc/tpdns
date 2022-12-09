@@ -1,67 +1,64 @@
 {
-    "name": "documentation",
-    "version": "0.0.0",
-    "private": true,
-    "scripts": {
-        "docusaurus": "docusaurus",
-        "start": "docusaurus start",
-        "build": "NODE_OPTIONS=\"--max-old-space-size=6144\" docusaurus build",
-        "build:plugins": "sucrase ./plugins -d ./plugins --transforms typescript,imports && npx prettier --write ./plugins",
-        "swizzle": "docusaurus swizzle",
-        "deploy": "docusaurus deploy",
-        "serve": "docusaurus serve",
-        "clear": "docusaurus clear"
-    },
-    "dependencies": {
-        "@docusaurus/core": "^2.1.0",
-        "@docusaurus/plugin-client-redirects": "^2.1.0",
-        "@docusaurus/preset-classic": "^2.1.0",
-        "@mdx-js/react": "^1.6.21",
-        "@tailwindcss/line-clamp": "^0.4.2",
-        "@types/react-dom": "^17.0.11",
-        "autoprefixer": "^10.4.8",
-        "axios": "^0.24.0",
-        "clsx": "^1.1.1",
-        "docusaurus-plugin-copy": "^0.1.1",
-        "dotenv": "^16.0.2",
-        "framer-motion": "^6.5.1",
-        "postcss": "^8.4.16",
-        "react": "^17.0.2",
-        "react-archer": "^4.1.0",
-        "react-dom": "^17.0.2",
-        "react-icons": "^4.2.0",
-        "react-lazyload": "^3.2.0",
-        "react-markdown": "^8.0.3",
-        "react-player": "^2.10.1",
-        "react-rewards": "^2.0.4",
-        "react-share": "^4.4.0",
-        "react-use-cookie": "^1.4.0",
-        "tailwindcss": "^3.1.8"
-    },
-    "browserslist": {
-        "production": [
-            ">0.5%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {
-        "@docusaurus/module-type-aliases": "^2.1.0",
-        "@tsconfig/docusaurus": "^1.0.4",
-        "@types/fs-extra": "^9.0.13",
-        "@types/gtag.js": "^0.0.12",
-        "@types/react": "^17.0.19",
-        "@types/react-helmet": "^6.1.2",
-        "@types/react-router-dom": "^5.1.8",
-        "esno": "^0.16.3",
-        "fs-extra": "^10.1.0",
-        "react-docgen-typescript": "^2.2.2",
-        "sucrase": "^3.27.0",
-        "typescript": "^4.4.2"
-    }
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "lerna": "lerna",
+    "start": "lerna run start --stream --parallel --scope @pankod/refine-core",
+    "test": "lerna run test --stream --scope @pankod/refine* --scope create-refine-app",
+    "test:coverage": "npm run test --stream -- -- -- --coverage",
+    "bootstrap": "cd packages/codemod && npm ci && cd ../.. && lerna bootstrap --hoist --strict  --ignore @pankod/refine-codemod --ignore @pankod/refine-react-router --scope @pankod/refine* --scope create-refine-app",
+    "lint": "eslint -c ./.eslintrc packages examples",
+    "lint:fix": "npm run lint -- --quiet --fix",
+    "lint:staged": "lint-staged",
+    "build": "lerna run build --ignore @pankod/refine-react-router --scope @pankod/refine* --scope create-refine-app",
+    "start:docs": "concurrently \"cd documentation && npm run start\" \"npm run start -- --scope @pankod/refine-live-previews\" --names docs,live --prefix-colors blue,red",
+    "nuke:node_modules": "echo 'Removing all node_modules'; find . -name 'node_modules' -type d -prune -not -path './documentation/*' -exec rm -rf '{}' +",
+    "nuke:builds": "echo 'Removing all builds/dists'; find ./packages -name 'dist' -type d -prune -not -path './documentation/*' -not -path '*/node_modules/*' -exec rm -rf '{}' +",
+    "nuke:lockfiles": "echo 'Removing all lockfiles'; find ./packages \\( -name 'package-lock.json' -o -name 'yarn.lock' -o -name 'pnpm-lock.yaml' \\) -type f -prune -not -path './documentation/*' -not -path '**/codemod/**' -not -path '**/node_modules/**' -exec rm -rf '{}' +",
+    "nuke": "echo 'Removing all node_modules, builds and lockfiles'; npm run nuke:node_modules; npm run nuke:builds; npm run nuke:lockfiles;",
+    "coffee": "npm run nuke && npm i && npm run bootstrap && npm run build",
+    "prepare": "husky install",
+    "changeset": "changeset",
+    "postinstall": "patch-package"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint -c ./.eslintrc --quiet --fix"
+    ]
+  },
+  "name": "refinejs-repo",
+  "author": "refine",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.1",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@types/jest": "^26.0.24",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "concurrently": "^7.4.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "husky": "^8.0.1",
+    "jest": "^27.5.1",
+    "lerna": "^4.0.0",
+    "lint-staged": "^10.5.4",
+    "patch-package": "^6.4.7",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-refresh": "^0.11.0",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@changesets/changelog-github": "^0.4.6",
+    "@changesets/cli": "^2.24.3",
+    "prettier": "^2.7.1"
+  }
 }
