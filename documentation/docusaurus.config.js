@@ -4,8 +4,6 @@
 
 require("dotenv").config();
 
-const redirectJson = require("./redirects.json");
-
 /** @type {import('@docusaurus/types/src/index').DocusaurusConfig} */
 const siteConfig = {
     title: "TPDNS",
