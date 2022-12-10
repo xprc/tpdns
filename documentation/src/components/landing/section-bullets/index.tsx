@@ -93,7 +93,7 @@ export const SectionBullets = () => {
                               }
                     }
                 >
-                    <motion.div className="h-fit z-[1] px-1 lg:px-5 -mx-16 bg-[#1784EB] font-extrabold font-misans text-white uppercase text-[36px] leading-[36px] lg:text-[52px] lg:leading-[52px]  lg:-rotate-3 shadow-startTiles flex rounded-lg">
+                    <motion.div className="h-fit z-[1] px-1 lg:px-5 -mx-16 bg-[#1784EB] font-extrabold font-misans text-white uppercase text-[36px] leading-[36px] lg:text-[63px] lg:leading-[52px]  lg:-rotate-3 shadow-startTiles flex rounded-lg">
                         为何不兼得?
                     </motion.div>
                 </motion.div>
