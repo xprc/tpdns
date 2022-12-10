@@ -18,7 +18,7 @@ export default function NavbarLogo({ className, ...props }) {
                 className={
                     className
                         ? className
-                        : "select-none mx-auto pr-6 lg:ml-0 lg:mr-2 lg:pr-0 items-center flex min-w-[110px] w-[110px] h-auto"
+                        : "select-none mx-auto pr-6 lg:ml-0 lg:mr-2 lg:pr-0 items-center flex min-w-[110px] w-[107px] h-auto"
                 }
                 // imageClassName="navbar__logo"
                 // titleClassName="navbar__title text--truncate"
