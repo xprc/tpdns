@@ -21,8 +21,8 @@ function Home() {
                 <html data-page="index" data-customized="true" />
             </Head>
             <Layout
-                title={`refine | Build your React-based CRUD applications, without constraints!`}
-                description="Refine offers lots of out-of-the box functionality for rapid development, without compromising extreme customizability. It ships with Ant Design System, an enterprise-level UI toolkit."
+                title={`TomsProject DNS | 下一代DNS服务提供商`}
+                description="TomsProject DNS 是一家提供融合DNS服务的综合服务商。"
             >
                 <Landing />
             </Layout>
