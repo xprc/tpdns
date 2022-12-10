@@ -118,26 +118,26 @@ const siteConfig = {
             items: [
                 {
                     to: "docs/getting-started/overview/",
-                    label: "Docs",
+                    label: "产品",
                     position: "left",
                 },
                 {
                     to: "docs",
-                    label: "Tutorial",
+                    label: "解决方案",
                     position: "left",
                     activeBaseRegex: "/^/docs(/)?$/",
                 },
                 {
                     to: "examples",
-                    label: "Examples",
+                    label: "价格",
                     position: "left",
                 },
                 {
                     to: "integrations",
-                    label: "Integrations",
+                    label: "支持",
                     position: "left",
                 },
-                { to: "https://blog.ttdns.net", label: "Blog", position: "left" },
+                { to: "https://blog.ttdns.net", label: "博客", position: "left" },
                 {
                     to: "https://github.com/ytmo",
                     label: "GitHub",
