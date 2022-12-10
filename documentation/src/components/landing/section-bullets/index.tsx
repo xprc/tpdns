@@ -152,11 +152,11 @@ export const SectionBullets = () => {
                                     </div>
                                     <div className={styles.cardText}>
                                         <strong className="font-extrabold">
-                                            1-minute
+                                            全球
                                         </strong>{" "}
-                                        setup with a single{" "}
+                                        Anycast{" "}
                                         <strong className="font-extrabold">
-                                            CLI command
+                                            速度超级快
                                         </strong>
                                     </div>
                                 </motion.div>
@@ -203,13 +203,12 @@ export const SectionBullets = () => {
                                     <div className={styles.cardText}>
                                         <div>
                                             <strong className="font-extrabold">
-                                                SSR
+                                                中国境内
                                             </strong>{" "}
-                                            support with{" "}
-                                        </div>
-                                        <div className="flex flex-row items-center justify-center gap-3 pt-2 lg:justify-start lg:">
-                                            <BenefitIcons.NextjsIcon className="w-auto h-[12px] lg:h-[18px]" />
-                                            <BenefitIcons.RemixIcon className="w-auto h-[12px] lg:h-[22px]" />
+                                            服务器{" "}
+                                            <strong className="font-extrabold">
+                                                丢包率为0
+                                            </strong>
                                         </div>
                                     </div>
                                 </motion.div>
@@ -254,17 +253,13 @@ export const SectionBullets = () => {
                                         />
                                     </div>
                                     <div className={styles.cardText}>
-                                        Perfect{" "}
+                                        支持{" "}
                                         <strong className="font-extrabold">
-                                            state management
+                                            GeoDNS
                                         </strong>{" "}
                                         &{" "}
                                         <strong className="font-extrabold">
-                                            mutations
-                                        </strong>{" "}
-                                        with{" "}
-                                        <strong className="font-extrabold">
-                                            React Query
+                                            分区分线路解析
                                         </strong>
                                     </div>
                                 </motion.div>
@@ -309,11 +304,11 @@ export const SectionBullets = () => {
                                         />
                                     </div>
                                     <div className={styles.cardText}>
-                                        Advanced routing with any{" "}
+                                        支持{" "}
                                         <strong className="font-extrabold">
-                                            router
+                                            TB 级
                                         </strong>{" "}
-                                        library of your choice
+                                        DDoS 防护
                                     </div>
                                 </motion.div>
                             </div>
@@ -357,15 +352,11 @@ export const SectionBullets = () => {
                                         />
                                     </div>
                                     <div className={styles.cardText}>
-                                        Providers for seamless{" "}
+                                        TTL 最高支持{" "}
                                         <strong className="font-extrabold">
-                                            authentication
+                                            1s
                                         </strong>{" "}
-                                        &{" "}
-                                        <strong className="font-extrabold">
-                                            access control
-                                        </strong>{" "}
-                                        flows
+                                        修改即刻生效
                                     </div>
                                 </motion.div>
                             </div>
@@ -409,10 +400,9 @@ export const SectionBullets = () => {
                                         />
                                     </div>
                                     <div className={styles.cardText}>
-                                        Out-of-the-box support for{" "}
+                                        SLA 高达
                                         <strong className="font-extrabold">
-                                            live&nbsp;/&nbsp;realtime
-                                            applications
+                                            99%
                                         </strong>
                                     </div>
                                 </motion.div>
@@ -457,13 +447,9 @@ export const SectionBullets = () => {
                                         />
                                     </div>
                                     <div className={styles.cardText}>
-                                        Easy{" "}
+                                        简单易用{" "}
                                         <strong className="font-extrabold">
-                                            audit logs
-                                        </strong>{" "}
-                                        &{" "}
-                                        <strong className="font-extrabold">
-                                            document versioning
+                                            自动化 API
                                         </strong>
                                     </div>
                                 </motion.div>
