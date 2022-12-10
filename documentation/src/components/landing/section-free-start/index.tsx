@@ -123,7 +123,7 @@ export const SectionFreeStart: React.FC = () => {
                                       delay: 0.2,
                                   }
                         }
-                        className="h-fit z-[1] px-5 -my-4 lg:my-0 lg:-mx-16 bg-[#3FDCF7] font-extrabold font-montserrat text-white uppercase text-[39px] leading-[42px] lg:text-[52px] lg:leading-[52px] py-0.5 -rotate-3 shadow-startTiles rounded-lg"
+                        className="h-fit z-[1] px-5 -my-4 lg:my-0 lg:-mx-16 bg-[#3FDCF7] font-extrabold font-misans text-white uppercase text-[39px] leading-[42px] lg:text-[52px] lg:leading-[52px] py-0.5 -rotate-3 shadow-startTiles rounded-lg"
                     >
                         or
                     </motion.div>
