@@ -112,8 +112,8 @@ const siteConfig = {
         ],
         navbar: {
             logo: {
-                alt: "refine",
-                src: "img/refine_logo.png",
+                alt: "TPDNS",
+                src: "img/tpdns_logo.png",
             },
             items: [
                 {
@@ -172,8 +172,8 @@ const siteConfig = {
         },
         footer: {
             logo: {
-                alt: "refine",
-                src: "/img/refine_logo.png",
+                alt: "TPDNS",
+                src: "/img/tpdns_logo.png",
             },
             links: [
                 {
