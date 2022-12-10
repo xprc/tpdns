@@ -136,7 +136,7 @@ export const SectionHero: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="tiles flex-[1] mx-auto lg:mx-0 min-w-[270px] max-w-[270px] sm:max-w-none lg:min-w-0 flex flex-col uppercase font-misans text-lg sm:text-xl lg:text-2xl tracking-tight font-medium text-[#1890FF]">
+                    <div className="tiles flex-[1] mx-auto lg:mx-0 min-w-[270px] max-w-[270px] sm:max-w-none lg:min-w-0 flex flex-col font-misans text-lg sm:text-xl lg:text-2xl tracking-tight font-medium text-[#1890FF]">
                         <motion.div
                             transition={
                                 !lg
@@ -456,11 +456,11 @@ export const SectionHero: React.FC = () => {
                             }
                         }}
                     >
-                        <span className="text-xs text-right text-white uppercase font-misans w-14">
+                        <span className="text-xs text-right text-white font-misans w-14">
                             向下
                         </span>
                         <ScrollIcon className="text-white cursor-pointer" />
-                        <span className="text-xs text-left text-white uppercase font-misans w-14">
+                        <span className="text-xs text-left text-white font-misans w-14">
                             滑动
                         </span>
                     </motion.button>
