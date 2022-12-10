@@ -6,7 +6,7 @@ require("dotenv").config();
 
 /** @type {import('@docusaurus/types/src/index').DocusaurusConfig} */
 const siteConfig = {
-    title: "TomsProject DNS",
+    title: "TPDNS",
     tagline: "下一代DNS服务提供商",
     url: "https://ttdns.net",
     baseUrl: "/",
