@@ -177,49 +177,58 @@ const siteConfig = {
             },
             links: [
                 {
-                    title: "Resources",
+                    title: "产品",
                     items: [
                         {
-                            label: "Getting Started",
-                            to: "docs/getting-started/overview",
+                            label: "DNS 解析",
+                            to: "dns",
                         },
                         {
-                            label: "Tutorials",
+                            label: "GeoDNS",
+                            to: "geodns",
+                        },
+                    ],
+                },
+                {
+                    title: "解决方案",
+                    items: [
+                        {
+                            label: "融合 DNS",
+                            to: "dns",
+                        },
+                        {
+                            label: "GeoDNS",
+                            to: "geodns",
+                        },
+                    ],
+                },
+                {
+                    title: "资源",
+                    items: [
+                        {
+                            label: "费用",
+                            to: "pricing",
+                        },
+                        {
+                            label: "文档",
                             to: "docs",
                         },
                         {
-                            label: "Blog",
+                            label: "博客",
                             to: "https://blog.ttdns.net",
                         },
                     ],
                 },
                 {
-                    title: "Product",
+                    title: "公司",
                     items: [
                         {
-                            label: "Examples",
-                            to: "examples",
-                        },
-                        {
-                            label: "Integrations",
-                            to: "integrations",
-                        },
-                        {
-                            label: "Become an Expert",
-                            to: "become-a-refine-expert",
-                        },
-                    ],
-                },
-                {
-                    title: "Company",
-                    items: [
-                        {
-                            label: "About",
+                            label: "关于我们",
                             to: "about",
                         },
                         {
-                            label: "Store 🎁",
-                            to: "https://store.refine.dev",
+                            label: "导航页",
+                            to: "https://tp.je",
                         },
                     ],
                 },
