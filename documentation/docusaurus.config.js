@@ -80,21 +80,6 @@ const siteConfig = {
         },
         "./plugins/docgen.js",
         "./plugins/examples.js",
-        [
-            "./plugins/blog-plugin.js",
-            {
-                blogTitle: "Blog",
-                blogDescription: "A Docusaurus powered blog!",
-                routeBasePath: "/blog",
-                postsPerPage: 12,
-                blogSidebarTitle: "All posts",
-                blogSidebarCount: 0,
-                feedOptions: {
-                    type: "all",
-                    copyright: `Copyright © ${new Date().getFullYear()} refine.`,
-                },
-            },
-        ],
         "./plugins/intercom.js",
     ],
     themeConfig: {
@@ -154,9 +139,9 @@ const siteConfig = {
                     label: "Integrations",
                     position: "left",
                 },
-                { to: "blog", label: "Blog", position: "left" },
+                { to: "https://blog.ttdns.net", label: "Blog", position: "left" },
                 {
-                    to: "https://github.com/refinedev/refine",
+                    to: "https://github.com/ytmo",
                     label: "GitHub",
                     position: "left",
                 },
@@ -181,7 +166,7 @@ const siteConfig = {
                     className: "header-icon-link header-discord-link",
                 },
                 {
-                    href: "https://twitter.com/refine_dev",
+                    href: "https://twitter.com/zptmo",
                     position: "right",
                     className: "header-icon-link header-twitter-link",
                 },
@@ -206,7 +191,7 @@ const siteConfig = {
                         },
                         {
                             label: "Blog",
-                            to: "blog",
+                            to: "https://blog.ttdns.net",
                         },
                     ],
                 },
