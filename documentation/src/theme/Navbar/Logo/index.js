@@ -1,18 +1,17 @@
 import React from "react";
 import Link from "@docusaurus/Link";
 
-import { RefineIcon } from "../../../components/landing/icons/refine-icon";
-
 export default function NavbarLogo({ className, ...props }) {
     return (
         <Link to="/" className="mx-auto lg:mx-0">
-            <RefineIcon
+            <img 
+                src="https://bucket.projectoms.com/wp-content/uploads/2022/12/ac0a23f74de340287f0c2b191f22746e43adeb1c.png?x-oss-process=image/resize,m_fill,w_1495,h_480/format,webp/quality,Q_100"
                 onContextMenu={(event) => {
                     event.preventDefault();
                     window
                         .open(
-                            "https://www.figma.com/file/y8lhTyumAN0zYI5nKKLoLN/refine.dev-brand-assets",
-                            "_blank",
+                            "https://ttdns.net",
+                            "_self",
                         )
                         .focus();
                 }}
