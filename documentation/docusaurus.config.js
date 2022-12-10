@@ -181,11 +181,11 @@ const siteConfig = {
                     items: [
                         {
                             label: "DNS 解析",
-                            to: "dns",
+                            to: "docs",
                         },
                         {
                             label: "GeoDNS",
-                            to: "geodns",
+                            to: "docs",
                         },
                     ],
                 },
@@ -194,11 +194,11 @@ const siteConfig = {
                     items: [
                         {
                             label: "融合 DNS",
-                            to: "dns",
+                            to: "docs",
                         },
                         {
                             label: "GeoDNS",
-                            to: "geodns",
+                            to: "docs",
                         },
                     ],
                 },
@@ -207,7 +207,7 @@ const siteConfig = {
                     items: [
                         {
                             label: "费用",
-                            to: "pricing",
+                            to: "docs",
                         },
                         {
                             label: "文档",
