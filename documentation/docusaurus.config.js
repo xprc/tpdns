@@ -244,10 +244,6 @@ const siteConfig = {
                             label: "github",
                         },
                         {
-                            href: "https://discord.gg/refine",
-                            label: "discord",
-                        },
-                        {
                             href: "https://reddit.com/r/tomsproject",
                             label: "reddit",
                         },
@@ -256,7 +252,7 @@ const siteConfig = {
                             label: "twitter",
                         },
                         {
-                            href: "https://www.linkedin.com/company/refine-dev",
+                            href: "https://www.linkedin.com/in/ztp/",
                             label: "linkedin",
                         },
                     ],
