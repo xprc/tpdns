@@ -123,16 +123,16 @@ export const SectionHero: React.FC = () => {
                         </div>
                         <div className="line-wrapper text-white font-montserrat tracking-tighter leading-[32px] md:leading-[45px] lg:leading-[50px] xl:leading-[60px]">
                             <div className="font-extrabold text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.75rem]">
-                                build your
+                                全球第一家
                             </div>
                             <div className="font-normal text-[1.5rem] md:text-[1.825rem] lg:text-[2rem] xl:text-[3rem]">
-                                REACT BASED
+                                融合 DNS
                             </div>
                             <div className="font-extrabold text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.75rem]">
-                                CRUD applications
+                                服务提供商
                             </div>
                             <div className="font-normal text-[1.5rem] md:text-[1.825rem] lg:text-[2rem] xl:text-[3rem]">
-                                WITHOUT CONSTRAINTS
+                                为你的网站注入新的活力
                             </div>
                         </div>
                     </div>
@@ -200,10 +200,10 @@ export const SectionHero: React.FC = () => {
                                 }
                             >
                                 <span className="block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    admin panels
+                                    Anycast DNS
                                 </span>
                                 <span className="block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    headless ui
+                                    支持 ACME
                                 </span>
                             </motion.div>
                         </motion.div>
@@ -270,10 +270,10 @@ export const SectionHero: React.FC = () => {
                                 }
                             >
                                 <span className="block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    dashboards
+                                    GeoDNS
                                 </span>
                                 <span className="block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    backend agnostic
+                                    1s TTL
                                 </span>
                             </motion.div>
                         </motion.div>
@@ -340,10 +340,10 @@ export const SectionHero: React.FC = () => {
                                 }
                             >
                                 <span className="block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    storefronts
+                                    DDoS 防护
                                 </span>
                                 <span className="absolute block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    custom workflow
+                                    99% SLA
                                 </span>
                             </motion.div>
                         </motion.div>
@@ -410,10 +410,10 @@ export const SectionHero: React.FC = () => {
                                 }
                             >
                                 <span className="block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    internal tools
+                                    免费使用
                                 </span>
                                 <span className="block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    open source
+                                    支持 API
                                 </span>
                             </motion.div>
                         </motion.div>
@@ -435,20 +435,7 @@ export const SectionHero: React.FC = () => {
                         </Link>
                     </div>
                     <div className="flex flex-row justify-end flex-1 gap-1 px-0 -mx-4 md:px-8 lg:px-12">
-                        <div>
-                            <a
-                                href="https://www.producthunt.com/posts/refine-3?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-refine&#0045;3"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <img
-                                    src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=362220&theme=light&period=daily"
-                                    alt="refine - 100&#0037;&#0032;open&#0032;source&#0032;React&#0032;framework&#0032;to&#0032;build&#0032;web&#0032;apps&#0032;3x&#0032;faster | Product Hunt"
-                                    width="250"
-                                    height="54"
-                                />
-                            </a>
-                        </div>
+                       
                     </div>
                 </div>
                 <div className="items-center justify-center hidden pb-5 lg:flex short:mt-auto lg:mt-6 short:pb-7">
