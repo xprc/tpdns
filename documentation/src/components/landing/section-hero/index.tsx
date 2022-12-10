@@ -423,32 +423,16 @@ export const SectionHero: React.FC = () => {
                     <div className="flex flex-col flex-1 gap-4 px-0 -mx-4 lg:flex-row md:px-8 lg:px-12">
                         <Link
                             className="flex flex-1 justify-center items-center appearance-none no-underline font-montserrat font-bold text-xl text-white text-center py-3 px-4 md:px-0 xl:px-4 rounded-lg shadow-lg hover:shadow-xl focus:outline-none focus:shadow-xl bg-gradient-to-l from-[#1890FF] to-[#47EBF5]"
-                            to="/docs"
+                            to="https://console.ttdns.net/"
                         >
-                            Start Tutorial
+                            免费开始使用
                         </Link>
                         <Link
                             className="flex items-center justify-center flex-1 gap-3 px-4 py-3 text-xl font-bold text-center text-white no-underline appearance-none font-montserrat md:px-0 xl:px-4 focus:outline-none"
                             href="/docs/getting-started/overview"
                         >
-                            Read the docs <ChevronRight />
+                            了解详情 <ChevronRight />
                         </Link>
-                    </div>
-                    <div className="flex flex-row justify-end flex-1 gap-1 px-0 -mx-4 md:px-8 lg:px-12">
-                        <div>
-                            <a
-                                href="https://www.producthunt.com/posts/refine-3?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-refine&#0045;3"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <img
-                                    src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=362220&theme=light&period=daily"
-                                    alt="refine - 100&#0037;&#0032;open&#0032;source&#0032;React&#0032;framework&#0032;to&#0032;build&#0032;web&#0032;apps&#0032;3x&#0032;faster | Product Hunt"
-                                    width="250"
-                                    height="54"
-                                />
-                            </a>
-                        </div>
                     </div>
                 </div>
                 <div className="items-center justify-center hidden pb-5 lg:flex short:mt-auto lg:mt-6 short:pb-7">
