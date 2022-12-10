@@ -80,12 +80,12 @@ export const SectionFreeStart: React.FC = () => {
                     >
                         <div className={styles.cardContent}>
                             <div className={styles.cardTextContainer}>
-                                <div className={styles.cardTitle}>START</div>
+                                <div className={styles.cardTitle}>境外</div>
                                 <div className={styles.cardSubtitle}>
-                                    FROM SCRATCH
+                                    DNS 服务商
                                 </div>
                                 <div className={styles.cardText}>
-                                    FOR FREEDOM
+                                    中国大陆超时
                                 </div>
                             </div>
                             <HikerIcon
@@ -159,15 +159,15 @@ export const SectionFreeStart: React.FC = () => {
                     >
                         <div className={styles.cardContent}>
                             <div className={styles.cardTextContainer}>
-                                <div className={styles.cardTitle}>USE</div>
+                                <div className={styles.cardTitle}>大陆</div>
                                 <div className={styles.cardSubtitle}>
-                                    A FRAMEWORK
+                                    DNS 服务
                                 </div>
                                 <div className={styles.cardText}>
-                                    FOR PRODUCTIVITY
+                                    境内很快
                                 </div>
                                 <div className={styles.cardText}>
-                                    AND ROBUSTNESS
+                                    海外超时
                                 </div>
                             </div>
                             <RocketIcon className="w-[28%] h-auto lg:w-[129px] lg:h-[129px]" />
