@@ -273,7 +273,7 @@ export const SectionHero: React.FC = () => {
                                     GeoDNS
                                 </span>
                                 <span className="block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    1s TTL
+                                    99% SLA
                                 </span>
                             </motion.div>
                         </motion.div>
@@ -343,7 +343,7 @@ export const SectionHero: React.FC = () => {
                                     DDoS 防护
                                 </span>
                                 <span className="absolute block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    99% SLA
+                                    支持 API
                                 </span>
                             </motion.div>
                         </motion.div>
@@ -410,10 +410,10 @@ export const SectionHero: React.FC = () => {
                                 }
                             >
                                 <span className="block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    免费使用
+                                    1s TTL
                                 </span>
                                 <span className="block w-full text-center py-[23px] sm:py-[18px] p-[18px] h-[4.5rem]">
-                                    支持 API
+                                    免费使用!
                                 </span>
                             </motion.div>
                         </motion.div>
