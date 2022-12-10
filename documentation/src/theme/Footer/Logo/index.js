@@ -4,7 +4,6 @@ import Link from "@docusaurus/Link";
 import { useBaseUrlUtils } from "@docusaurus/useBaseUrl";
 import ThemedImage from "@theme/ThemedImage";
 import styles from "./styles.module.css";
-import { RefineIcon } from "../../../components/landing/icons/refine-icon";
 function LogoImage({ logo }) {
     const { withBaseUrl } = useBaseUrlUtils();
     const sources = {
@@ -29,9 +28,9 @@ export default function FooterLogo({ logo }) {
             className={styles.footerLogoLink}
             target={logo.target}
         >
-            <RefineIcon className="w-[107px] h-auto" />
+            <img src="https://bucket.projectoms.com/wp-content/uploads/2022/12/ac0a23f74de340287f0c2b191f22746e43adeb1c.png?x-oss-process=image/resize,m_fill,w_1495,h_480/format,webp/quality,Q_100" className="w-[107px] h-auto" />
         </Link>
     ) : (
-        <RefineIcon className="w-[107px] h-auto" />
+        <img src="https://bucket.projectoms.com/wp-content/uploads/2022/12/ac0a23f74de340287f0c2b191f22746e43adeb1c.png?x-oss-process=image/resize,m_fill,w_1495,h_480/format,webp/quality,Q_100" className="w-[107px] h-auto" />
     );
 }
