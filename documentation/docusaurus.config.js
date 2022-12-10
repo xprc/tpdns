@@ -6,8 +6,8 @@ require("dotenv").config();
 
 /** @type {import('@docusaurus/types/src/index').DocusaurusConfig} */
 const siteConfig = {
-    title: "TPDNS",
-    tagline: "Next Generation DNS Service",
+    title: "TomsProject DNS",
+    tagline: "下一代DNS服务提供商",
     url: "https://ttdns.net",
     baseUrl: "/",
     projectName: "tpdns",
@@ -22,8 +22,6 @@ const siteConfig = {
                 docs: {
                     path: "./docs",
                     sidebarPath: require.resolve("./sidebars.js"),
-                    editUrl:
-                        "https://github.com/refinedev/refine/tree/master/documentation",
                     showLastUpdateAuthor: true,
                     showLastUpdateTime: true,
                     versions: {
@@ -229,21 +227,13 @@ const siteConfig = {
                     title: "__LEGAL",
                     items: [
                         {
-                            label: "License",
-                            to: "https://github.com/refinedev/refine/blob/next/LICENSE",
+                            label: "服务条款",
+                            to: "https://www.projectoms.com/page/terms.html",
                         },
-                        // {
-                        //     label: "Terms",
-                        //     to: "/enterprise",
-                        // },
-                        // {
-                        //     label: "Privacy",
-                        //     to: "/privacy-policy",
-                        // },
-                        // {
-                        //     label: "info@refine.dev",
-                        //     to: "mailto:info@refine.dev",
-                        // },
+                        {
+                            label: "隐私政策",
+                            to: "https://www.projectoms.com/page/privacy.html",
+                        },
                     ],
                 },
                 {
@@ -280,10 +270,10 @@ const siteConfig = {
             '<strong style="font-weight:700;">refine</strong> is a React-based framework for the rapid development of web applications. It eliminates the repetitive tasks demanded by <strong style="font-weight:700;">CRUD</strong> operations and provides industry standard solutions.',
         contactTitle: "Contact",
         contactDescription: [
-            "Refine Dev Corporation",
-            "256 Chapman Road STE 105-4 Newark, DE 19702",
+            "TomsProject Inc.",
+            "https://www.projectoms.com",
         ],
-        contactEmail: "info@refine.dev",
+        contactEmail: "support@ttdns.net",
         /** ---- */
         /** Live Preview */
         LIVE_PREVIEW_URL:
