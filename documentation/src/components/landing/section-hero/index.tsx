@@ -136,7 +136,7 @@ export const SectionHero: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="tiles flex-[1] mx-auto lg:mx-0 min-w-[270px] max-w-[270px] sm:max-w-none lg:min-w-0 flex flex-col uppercase font-montserrat text-lg sm:text-xl lg:text-2xl tracking-tight font-medium text-[#1890FF]">
+                    <div className="tiles flex-[1] mx-auto lg:mx-0 min-w-[270px] max-w-[270px] sm:max-w-none lg:min-w-0 flex flex-col uppercase font-misans text-lg sm:text-xl lg:text-2xl tracking-tight font-medium text-[#1890FF]">
                         <motion.div
                             transition={
                                 !lg
@@ -422,13 +422,13 @@ export const SectionHero: React.FC = () => {
                 <div className="flex flex-col-reverse max-w-lg gap-2 pt-12 pb-8 mx-auto lg:flex-row sm:pt-16 lg:pt-24 short:pt-10 short:pb-4 lg:gap-0 lg:mx-0 lg:max-w-none">
                     <div className="flex flex-col flex-1 gap-4 px-0 -mx-4 lg:flex-row md:px-8 lg:px-12">
                         <Link
-                            className="flex flex-1 justify-center items-center appearance-none no-underline font-montserrat font-bold text-xl text-white text-center py-3 px-4 md:px-0 xl:px-4 rounded-lg shadow-lg hover:shadow-xl focus:outline-none focus:shadow-xl bg-gradient-to-l from-[#1890FF] to-[#47EBF5]"
+                            className="flex flex-1 justify-center items-center appearance-none no-underline font-misans font-bold text-xl text-white text-center py-3 px-4 md:px-0 xl:px-4 rounded-lg shadow-lg hover:shadow-xl focus:outline-none focus:shadow-xl bg-gradient-to-l from-[#1890FF] to-[#47EBF5]"
                             to="https://console.ttdns.net/"
                         >
                             免费开始使用
                         </Link>
                         <Link
-                            className="flex items-center justify-center flex-1 gap-3 px-4 py-3 text-xl font-bold text-center text-white no-underline appearance-none font-montserrat md:px-0 xl:px-4 focus:outline-none"
+                            className="flex items-center justify-center flex-1 gap-3 px-4 py-3 text-xl font-bold text-center text-white no-underline appearance-none font-misans md:px-0 xl:px-4 focus:outline-none"
                             href="/docs/getting-started/overview"
                         >
                             了解详情 <ChevronRight />
@@ -456,12 +456,12 @@ export const SectionHero: React.FC = () => {
                             }
                         }}
                     >
-                        <span className="text-xs text-right text-white uppercase font-montserrat w-14">
-                            scroll
+                        <span className="text-xs text-right text-white uppercase font-misans w-14">
+                            向下
                         </span>
                         <ScrollIcon className="text-white cursor-pointer" />
-                        <span className="text-xs text-left text-white uppercase font-montserrat w-14">
-                            down
+                        <span className="text-xs text-left text-white uppercase font-misans w-14">
+                            滑动
                         </span>
                     </motion.button>
                 </div>
