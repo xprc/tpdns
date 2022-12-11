@@ -172,4 +172,4 @@ const OnGeoDNS: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
     );
 };
 
-export default OnBackend;
+export default OnGeoDNS;
