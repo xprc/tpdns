@@ -24,12 +24,6 @@ const siteConfig = {
                     sidebarPath: require.resolve("./sidebars.js"),
                     showLastUpdateAuthor: true,
                     showLastUpdateTime: true,
-                    versions: {
-                        current: {
-                            label: "3.xx.xx",
-                        },
-                    },
-                    lastVersion: "current",
                     admonitions: {
                         tag: ":::",
                         keywords: [
@@ -147,11 +141,6 @@ const siteConfig = {
                     to: "https://store.refine.dev",
                     label: "Store 🎁",
                     position: "left",
-                },
-                {
-                    type: "docsVersionDropdown",
-                    position: "right",
-                    dropdownActiveClassDisabled: true,
                 },
                 {
                     href: "https://github.com/refinedev/refine",
