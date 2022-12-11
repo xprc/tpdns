@@ -8,7 +8,7 @@ import OnStyling from "./on-styling";
 import { Header } from "./header";
 import SpotLight from "./spot-light";
 
-export const SectionNoConstraints: React.FC = () => {
+export const SectionFeatures: React.FC = () => {
     const ref = React.useRef<HTMLDivElement>(null);
 
     const twBreakpoints = useTWBreakpoints();
