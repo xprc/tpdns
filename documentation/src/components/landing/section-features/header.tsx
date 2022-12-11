@@ -39,7 +39,7 @@ export const Header: FC<Props> = ({ scrollYProgress }) => {
                             style={{
                                 color: currentSlide < 3 ? "#1890FF" : "#D8D8DC",
                             }}
-                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-misans"
+                            className="text-xs font-medium text-center transition-colors duration-200 ease-in-out md:text-base font-misans"
                         >
                             Anycast
                         </motion.div>
@@ -48,7 +48,7 @@ export const Header: FC<Props> = ({ scrollYProgress }) => {
                                 color:
                                     currentSlide === 3 ? "#1890FF" : "#D8D8DC",
                             }}
-                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-misans"
+                            className="text-xs font-medium text-center transition-colors duration-200 ease-in-out md:text-base font-misans"
                         >
                             GeoDNS
                         </motion.div>
@@ -57,7 +57,7 @@ export const Header: FC<Props> = ({ scrollYProgress }) => {
                                 color:
                                     currentSlide === 4 ? "#1890FF" : "#D8D8DC",
                             }}
-                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-misans"
+                            className="text-xs font-medium text-center transition-colors duration-200 ease-in-out md:text-base font-misans"
                         >
                             1s TTL
                         </motion.div>
@@ -66,7 +66,7 @@ export const Header: FC<Props> = ({ scrollYProgress }) => {
                                 color:
                                     currentSlide === 5 ? "#1890FF" : "#D8D8DC",
                             }}
-                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-misans"
+                            className="text-xs font-medium text-center transition-colors duration-200 ease-in-out md:text-base font-misans"
                         >
                             免费使用
                         </motion.div>
