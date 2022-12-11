@@ -25,7 +25,7 @@ function Footer() {
             }
             legalLinks={
                 links && links.length > 0
-                    ? links.find((el) => el.title === "__LEGAL")
+                    ? links.find((el) => el.title === "__TLINK")
                     : undefined
             }
             socialLinks={
