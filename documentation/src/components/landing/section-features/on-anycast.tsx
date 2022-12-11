@@ -106,7 +106,7 @@ const OnAnycast: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
                         src="/landing/no-constraints/custom-ui.png"
                     />
                     <motion.div
-                        className="font-montserrat bg-[#2A2A42] text-white text-xs md:text-2xl font-extrabold px-4 py-2 rounded-md absolute shadow-startTiles left-[10%] bottom-[26%] z-50"
+                        className="font-misans bg-[#2A2A42] text-white text-xs md:text-2xl font-extrabold px-4 py-2 rounded-md absolute shadow-startTiles left-[10%] bottom-[26%] z-50"
                         initial={{
                             translateZ: "10px",
                         }}
@@ -116,7 +116,7 @@ const OnAnycast: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
                             duration: 3,
                         }}
                     >
-                        CUSTOM UI
+                        境内外都快
                     </motion.div>
                 </motion.div>
             </motion.div>
