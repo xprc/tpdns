@@ -233,15 +233,27 @@ const siteConfig = {
                     ],
                 },
                 {
-                    title: "__LEGAL",
+                    title: "__TLINK",
                     items: [
+                        {
+                            label: "导航页",
+                            to: "https://tp.je/",
+                        },
                         {
                             label: "服务条款",
                             to: "https://www.projectoms.com/page/terms.html",
                         },
                         {
+                            label: "站点状态",
+                            to: "https://status.projectoms.com/",
+                        },
+                        {
                             label: "隐私政策",
                             to: "https://www.projectoms.com/page/privacy.html",
+                        },
+                        {
+                            label: "站点地图",
+                            to: "https://ttdns.net/sitemap.xml",
                         },
                     ],
                 },
