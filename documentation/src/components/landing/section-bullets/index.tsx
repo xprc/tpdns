@@ -494,23 +494,22 @@ export const SectionBullets = () => {
                                         />
                                     </div>
                                     <div className={styles.cardText}>
-                                        Support for any{" "}
+                                        最重要的是:{" "}
                                         <strong className="font-extrabold">
-                                            i18n
-                                        </strong>{" "}
-                                        framework
+                                            免费使用!
+                                        </strong>
                                     </div>
                                 </motion.div>
                             </div>
                         </div>
                     </div>
-                    <div className="text-center font-montserrat font-medium text-base xl:text-xl text-[#2A2A42] tracking-wide">
+                    <div className="text-center font-misans font-medium text-base xl:text-xl text-[#2A2A42] tracking-wide">
                         <p className="mb-0">
-                            With <strong className="font-bold">refine</strong>{" "}
-                            you can have it all without compromising
+                            使用 <strong className="font-bold">TomsProject 融合DNS</strong>{" "}
+                            你不必为某一个功能
                         </p>
                         <p className="mb-0">
-                            your freedom or facing constraints.
+                            舍去其他重要功能。
                         </p>
                     </div>
                 </motion.div>
