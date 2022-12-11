@@ -49,14 +49,17 @@ const OnAnycast: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
                 }
             >
                 <motion.div className="relative flex flex-[1] item-start md:items-center h-full pointer-events-none 2xl:pr-16">
-                    <p className="font-montserrat font-medium text-base 2xl:text-xl tracking-tight leading-[20px] max-w-[280px] 2xl:max-w-none mb-0 text-[#2A2A42] lg:translate-y-[-80%]">
-                        <strong className="font-bold">refine</strong> is{" "}
+                    <p className="font-misans font-medium text-base 2xl:text-xl tracking-tight leading-[20px] max-w-[280px] 2xl:max-w-none mb-0 text-[#2A2A42] lg:translate-y-[-80%]">
+                        <strong className="font-bold">TomsProject 融合DNS</strong> 提供商均基于{" "}
                         <strong className="font-bold">
-                            headless by design.
+                            Anycast DNS.
                         </strong>{" "}
                         <div>
-                            It doesn’t ship with any pre-styled components or UI
-                            by default.
+                            您无需担心你的网站解析速度
+                            在世界上任何地方会慢{" "}
+                            <strong className="font-bold">
+                                包括中国大陆
+                            </strong>
                         </div>
                         <br />
                         <div>
