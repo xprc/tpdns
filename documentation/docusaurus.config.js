@@ -273,7 +273,7 @@ const siteConfig = {
     customFields: {
         /** Footer Fields */
         footerDescription:
-            '<strong style="font-weight:700;">refine</strong> is a React-based framework for the rapid development of web applications. It eliminates the repetitive tasks demanded by <strong style="font-weight:700;">CRUD</strong> operations and provides industry standard solutions.',
+            '<strong style="font-weight:700;">TomsProject 融合DNS</strong> 是一款基于 <strong style="font-weight:700;">Anycast & GeoDNS</strong> 的融合DNS服务商。我们通过将各家传统DNS服务商的服务进行整合, 以此为您的网站提供顶级的DNS解析服务。',
         contactTitle: "Contact",
         contactDescription: [
             "TomsProject Inc.",
