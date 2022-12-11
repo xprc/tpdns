@@ -59,13 +59,6 @@ const OnAnycast: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
                             在中国境内没有服务器
                         </strong>{" "}
                         导致大陆的 DNS 查询常常超时
-                        <div>
-                            您无需担心你的网站解析速度
-                            在世界上任何地方会慢{" "}
-                            <strong className="font-bold">
-                                包括中国大陆
-                            </strong>
-                        </div>
                         <br />
                         <div>
                             相反, TomsProject 融合DNS 通过 GeoDNS 技术{" "}
