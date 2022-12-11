@@ -129,7 +129,7 @@ export default function FooterLayout({
                 </div>
                 <div className="flex flex-col gap-6 lg:flex-row lg:gap-20">
                     <div
-                        className="font-montserrat w-full max-w-full flex-shrink-0 text-xs tracking-wide text-[#9696B4] lg:max-w-[280px]"
+                        className="font-misans w-full max-w-full flex-shrink-0 text-xs tracking-wide text-[#9696B4] lg:max-w-[280px]"
                         dangerouslySetInnerHTML={{ __html: footerDescription }}
                     />
                     <div className="flex-1">{links}</div>
@@ -137,7 +137,7 @@ export default function FooterLayout({
                 <div className="h-2.5 w-full border-0 border-b-2 border-solid border-b-[#9696B4]" />
                 <div className="flex flex-col-reverse gap-6 lg:flex-row lg:gap-0">
                     <div className="flex-1">
-                        <div className="font-montserrat flex items-center justify-center text-[11px] leading-[12px] text-[#9696B4] sm:text-xs lg:justify-start">
+                        <div className="font-misans flex items-center justify-center text-[11px] leading-[12px] text-[#9696B4] sm:text-xs lg:justify-start">
                             © {new Date().getFullYear()}, built with{" "}
                             <LoveIcon
                                 className="ml-2"
@@ -150,7 +150,7 @@ export default function FooterLayout({
                         </div>
                     </div>
                     <div className="flex flex-1 flex-col gap-6 sm:flex-row sm:gap-0">
-                        <div className="font-montserrat flex h-[18px] flex-[2] items-center justify-center gap-4 text-xs text-[#9696B4] sm:justify-start lg:justify-end">
+                        <div className="font-misans flex h-[18px] flex-[2] items-center justify-center gap-4 text-xs text-[#9696B4] sm:justify-start lg:justify-end">
                             {legalLinks?.items?.map?.((item, i) => (
                                 <a
                                     key={i}
@@ -161,7 +161,7 @@ export default function FooterLayout({
                                 </a>
                             ))}
                         </div>
-                        <div className="font-montserrat flex h-[18px] flex-[3] items-center justify-center gap-3 text-xs text-[#9696B4] sm:justify-end">
+                        <div className="font-misans flex h-[18px] flex-[3] items-center justify-center gap-3 text-xs text-[#9696B4] sm:justify-end">
                             <span>Join us on</span>
                             {socialLinks?.items?.map?.((socialLink, i) => (
                                 <a
