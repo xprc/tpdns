@@ -50,10 +50,15 @@ const OnAnycast: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
             >
                 <motion.div className="relative flex flex-[1] item-start md:items-center h-full pointer-events-none 2xl:pr-16">
                     <p className="font-misans font-medium text-base 2xl:text-xl tracking-tight leading-[20px] max-w-[280px] 2xl:max-w-none mb-0 text-[#2A2A42] lg:translate-y-[-80%]">
-                        <strong className="font-bold">TomsProject 融合DNS</strong> 提供商均基于{" "}
+                        <strong className="font-bold">传统 DNS 服务商</strong> 虽然基于{" "}
                         <strong className="font-bold">
-                            Anycast DNS.
+                            Anycast DNS
                         </strong>{" "}
+                        但由于政策原因,
+                        <strong className="font-bold">
+                            在中国境内没有服务器
+                        </strong>{" "}
+                        导致大陆的 DNS 查询常常超时
                         <div>
                             您无需担心你的网站解析速度
                             在世界上任何地方会慢{" "}
@@ -63,13 +68,13 @@ const OnAnycast: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
                         </div>
                         <br />
                         <div>
-                            Instead, you can use any{" "}
-                            <strong className="font-bold">custom design</strong>{" "}
-                            or{" "}
-                            <strong className="font-bold">UI framework</strong>{" "}
-                            for{" "}
+                            相反, TomsProject 融合DNS 通过 GeoDNS 技术{" "}
+                            <strong className="font-bold">向中国大陆用户返回境内 DNS 服务器</strong>{" "}
+                            而境外则使用{" "}
+                            <strong className="font-bold">全球 Anycast DNS 服务器</strong>{" "}
+                            从而绕开{" "}
                             <strong className="font-bold">
-                                100% control over styling.
+                                政策监管问题。
                             </strong>
                         </div>
                     </p>
