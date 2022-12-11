@@ -1,10 +1,10 @@
 import React from "react";
 import { useScroll } from "framer-motion";
 import { useTWBreakpoints } from "../../../hooks/use-tw-breakpoints";
-import OnBackend from "./on-backend";
-import OnWorkflow from "./on-workflow";
-import WithOpenSource from "./with-open-source";
-import OnStyling from "./on-styling";
+import OnGeoDNS from "./on-geodns";
+import OnTTL from "./on-ttl";
+import StartFree from "./start-free";
+import OnAnycast from "./on-anycast";
 import { Header } from "./header";
 import SpotLight from "./spot-light";
 
@@ -33,19 +33,19 @@ export const SectionFeatures: React.FC = () => {
                     ref={ref}
                     className="relative flex flex-col gap-16 lg:gap-0 "
                 >
-                    <OnStyling
+                    <OnAnycast
                         scrollYProgress={scrollYProgress}
                         twBreakpoints={twBreakpoints}
                     />
-                    <OnBackend
+                    <OnGeoDNS
                         scrollYProgress={scrollYProgress}
                         twBreakpoints={twBreakpoints}
                     />
-                    <OnWorkflow
+                    <OnTTL
                         scrollYProgress={scrollYProgress}
                         twBreakpoints={twBreakpoints}
                     />
-                    <WithOpenSource
+                    <StartFree
                         scrollYProgress={scrollYProgress}
                         twBreakpoints={twBreakpoints}
                     />
