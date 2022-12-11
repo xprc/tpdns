@@ -76,7 +76,7 @@ interface Props {
     twBreakpoints: TWBreakpoints;
 }
 
-const WithOpenSource: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
+const StartFree: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
     const { starCount } = useGithubContext();
 
     const opacity = useTransform(scrollYProgress, [0.7, 0.8, 1], [0, 1, 0]);
