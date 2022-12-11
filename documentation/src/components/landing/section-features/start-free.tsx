@@ -257,4 +257,4 @@ const StartFree: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
     );
 };
 
-export default WithOpenSource;
+export default StartFree;
