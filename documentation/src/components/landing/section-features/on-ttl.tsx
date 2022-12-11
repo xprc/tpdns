@@ -15,7 +15,7 @@ interface Props {
     twBreakpoints: TWBreakpoints;
 }
 
-const OnWorkflow: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
+const OnTTL: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
     const businessLogicAnimationOptions = useRef({
         animate: {
             rotateX: ["5deg", "10deg"],
