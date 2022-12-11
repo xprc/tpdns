@@ -30,8 +30,8 @@ export const Header: FC<Props> = ({ scrollYProgress }) => {
             style={{ translateY, opacity }}
         >
             <div className="flex-shrink-0 w-full">
-                <div className="w-full text-center font-montserrat text-[36px] md:text-[60px] lg:text-[64px] leading-none font-extrabold text-[#1890FF] short:text-[55px]">
-                    no constraints
+                <div className="w-full text-center font-misans text-[36px] md:text-[60px] lg:text-[64px] leading-none font-extrabold text-[#1890FF] short:text-[55px]">
+                    我们的优势
                 </div>
                 <motion.div className="flex-shrink-0 block">
                     <div className="relative flex justify-center w-full max-w-5xl gap-4 mx-auto">
@@ -39,36 +39,36 @@ export const Header: FC<Props> = ({ scrollYProgress }) => {
                             style={{
                                 color: currentSlide < 3 ? "#1890FF" : "#D8D8DC",
                             }}
-                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-montserrat"
+                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-misans"
                         >
-                            on styling
+                            Anycast
                         </motion.div>
                         <motion.div
                             style={{
                                 color:
                                     currentSlide === 3 ? "#1890FF" : "#D8D8DC",
                             }}
-                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-montserrat"
+                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-misans"
                         >
-                            on backend
+                            GeoDNS
                         </motion.div>
                         <motion.div
                             style={{
                                 color:
                                     currentSlide === 4 ? "#1890FF" : "#D8D8DC",
                             }}
-                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-montserrat"
+                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-misans"
                         >
-                            on workflow
+                            1s TTL
                         </motion.div>
                         <motion.div
                             style={{
                                 color:
                                     currentSlide === 5 ? "#1890FF" : "#D8D8DC",
                             }}
-                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-montserrat"
+                            className="text-xs font-medium text-center uppercase transition-colors duration-200 ease-in-out md:text-base font-misans"
                         >
-                            with opensource
+                            免费使用
                         </motion.div>
                     </div>
                 </motion.div>
@@ -80,8 +80,8 @@ export const Header: FC<Props> = ({ scrollYProgress }) => {
 export const HeaderMobile: FC = ({ children }) => {
     return (
         <div className="flex-shrink-0 block w-full mb-4 ">
-            <div className="w-full text-center font-montserrat text-[36px] md:text-[60px] lg:text-[90px] leading-none font-extrabold text-[#1890FF] short:text-[55px]">
-                no constraints
+            <div className="w-full text-center font-misans text-[36px] md:text-[60px] lg:text-[90px] leading-none font-extrabold text-[#1890FF] short:text-[55px]">
+                我们的优势
             </div>
             <div className="w-full font-medium uppercase text-2xl md:text-3xl lg:text-4xl leading-none font-montserrat text-[#1890FF] text-center h-9 relative overflow-hidden short:text-[24px] short:leading-[24px] short:h-6">
                 <div className="absolute top-0 left-0 w-full">
