@@ -138,8 +138,7 @@ export default function FooterLayout({
                 <div className="flex flex-col-reverse gap-6 lg:flex-row lg:gap-0">
                     <div className="flex-1">
                         <div className="font-montserrat flex items-center justify-center text-[11px] leading-[12px] text-[#9696B4] sm:text-xs lg:justify-start">
-                            © {new Date().getFullYear()}, refine from Delaware
-                            to wherever you&apos;re with{" "}
+                            © {new Date().getFullYear()}, built with{" "}
                             <LoveIcon
                                 className="ml-2"
                                 onClick={() => {
@@ -147,6 +146,7 @@ export default function FooterLayout({
                                     rightReward();
                                 }}
                             />
+                            by TomsProject Inc.
                         </div>
                     </div>
                     <div className="flex flex-1 flex-col gap-6 sm:flex-row sm:gap-0">
