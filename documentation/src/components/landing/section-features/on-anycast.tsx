@@ -231,4 +231,4 @@ const OnAnycast: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
     );
 };
 
-export default OnStyling;
+export default OnAnycast;
