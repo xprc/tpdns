@@ -146,7 +146,7 @@ export default function FooterLayout({
                                     rightReward();
                                 }}
                             />
-                            by TomsProject Inc.
+                            {" "}by TomsProject Inc.
                         </div>
                     </div>
                     <div className="flex flex-1 flex-col gap-6 sm:flex-row sm:gap-0">
