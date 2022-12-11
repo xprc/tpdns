@@ -36,7 +36,7 @@ export default function NavbarMobilePrimaryMenu() {
                             : location.pathname.startsWith(item.to))
                             ? "active-item"
                             : ""
-                    } block text-center font-montserrat font-semibold text-[#2A2A42] text-lg mb-1 hoveline-link`}
+                    } block text-center font-misans font-semibold text-[#2A2A42] text-lg mb-1 hoveline-link`}
                     onClick={() => mobileSidebar.toggle()}
                     key={i}
                 />
