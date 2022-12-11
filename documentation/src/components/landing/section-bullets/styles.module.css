@@ -27,7 +27,7 @@
 }
 
 .cardText {
-    @apply font-montserrat font-normal text-left text-xs 2xl:text-base text-[#2A2A42] tracking-tight;
+    @apply font-misans font-normal text-left text-xs 2xl:text-base text-[#2A2A42] tracking-tight;
 }
 
 .cardIconWrapper {
