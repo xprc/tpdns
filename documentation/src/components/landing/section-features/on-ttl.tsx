@@ -162,4 +162,4 @@ const OnTTL: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
     );
 };
 
-export default OnWorkflow;
+export default OnTTL;
