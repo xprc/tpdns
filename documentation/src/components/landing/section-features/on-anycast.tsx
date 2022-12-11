@@ -10,7 +10,7 @@ interface Props {
     twBreakpoints: TWBreakpoints;
 }
 
-const OnStyling: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
+const OnAnycast: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
     const opacity = useTransform(scrollYProgress, [0, 0.2, 0.3], [1, 1, 0]);
 
     const opacityImage1 = useTransform(scrollYProgress, [0, 0.15], [1, 0]);
