@@ -89,7 +89,7 @@ interface Props {
     twBreakpoints: TWBreakpoints;
 }
 
-const OnBackend: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
+const OnGeoDNS: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
     const opacity = useTransform(
         scrollYProgress,
         [0, 0.3, 0.4, 0.5],
