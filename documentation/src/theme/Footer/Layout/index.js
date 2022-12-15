@@ -188,6 +188,12 @@ export default function FooterLayout({
                         </div>
                     </div>
                 </div>
+                <div>
+                    <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备19007812号-2</a>
+                    <div style="width:300px;margin:0 auto; padding:20px 0;">
+		 		        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802041005" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="https://bucket.projectoms.com/wp-content/themes/CorePress/static/img/police.svg" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">京公网安备 11010802041005号</p></a>
+		 	        </div>
+		        </div>
             </div>
             <span
                 className="fixed -left-10 bottom-[20vh] z-10 "
