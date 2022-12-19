@@ -129,7 +129,7 @@
         "pluralize": "^8.0.0",
         "prism-react-renderer": "^1.3.5",
         "react-markdown": "^6.0.1",
-        "remark-gfm": "^1.0.0",
+        "remark-gfm": "^3.0.1",
         "tslib": "^2.3.1",
         "prettier": "^2.7.1",
         "@aliemir/react-live": "^4.0.0"

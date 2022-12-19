@@ -55,7 +55,7 @@
         "lodash": "^4.17.21",
         "notistack": "^2.0.4",
         "react-markdown": "^6.0.1",
-        "remark-gfm": "^1.0.0",
+        "remark-gfm": "^3.0.1",
         "warn-once": "^0.1.0",
         "tslib": "^2.3.1"
     },
