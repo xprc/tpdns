@@ -152,6 +152,7 @@ export default function FooterLayout({
                             <a
                                 href="https://beian.miit.gov.cn/"
                                 target="_blank"
+				className="text-[#9696B4]"
                                 rel="noopener noreferrer"
                             >
                                 京ICP备19007812号-5
@@ -159,10 +160,10 @@ export default function FooterLayout({
 		 	    <a
                                 target="_blank"
                                 href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802041005"
-				className="h-[22px]"
+				className="text-[#9696B4]"
                                 rel="noopener noreferrer"
                             >
-                                <img src="https://bucket.projectoms.com/wp-content/themes/CorePress/static/img/police.svg" />
+                                <img className="h-[18px] w-[18px] float-left" src="https://bucket.projectoms.com/wp-content/themes/CorePress/static/img/police.svg" />
                                 <p>京公网安备 11010802041005号</p>
                             </a>
 		        </div>
