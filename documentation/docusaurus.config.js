@@ -15,6 +15,10 @@ const siteConfig = {
     trailingSlash: true,
     favicon: "img/favicon.ico",
     scripts: ["https://platform.twitter.com/widgets.js"],
+    i18n: {
+    defaultLocale: 'zh-Hans',
+    locales: ['en', 'zh-Hans'],
+    },
     presets: [
         [
             "@docusaurus/preset-classic",
@@ -141,6 +145,10 @@ const siteConfig = {
                     to: "https://store.refine.dev",
                     label: "Store 🎁",
                     position: "left",
+                },
+                {
+                    type: 'localeDropdown',
+                    position: 'left',
                 },
                 {
                     href: "https://github.com/refinedev/refine",
