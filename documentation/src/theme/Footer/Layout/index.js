@@ -148,6 +148,24 @@ export default function FooterLayout({
                             />
                             {" "}by TomsProject Inc.
                         </div>
+                        <div>
+                            <a
+                                href="https://beian.miit.gov.cn/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                京ICP备19007812号-5
+                            </a>
+		 	                <a
+                                target="_blank"
+                                href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802041005"
+                                style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"
+                                rel="noopener noreferrer"
+                            >
+                                <img src="https://bucket.projectoms.com/wp-content/themes/CorePress/static/img/police.svg" style="float:left;"/>
+                                <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">京公网安备 11010802041005号</p>
+                            </a>
+		                </div>
                     </div>
                     <div className="flex flex-1 flex-col gap-6 sm:flex-row sm:gap-0">
                         <div className="font-misans flex h-[18px] flex-[2] items-center justify-center gap-4 text-xs text-[#9696B4] sm:justify-start lg:justify-end">
