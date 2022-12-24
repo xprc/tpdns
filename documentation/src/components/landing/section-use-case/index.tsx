@@ -23,60 +23,48 @@ export const SectionUseCase: React.FC = () => {
             <motion.div className="relative top-0 left-0 flex flex-col items-center justify-end w-screen h-auto max-w-full gap-24 pt-16 pb-6 overflow-x-hidden lg:pt-16 lg:pb-12 lg:h-screen lg:snap-start lg:sticky lg:gap-0">
                 <div className="flex-1 flex flex-col-reverse gap-4 lg:gap-0 lg:flex-row mx-auto max-w-[900px] w-full h-full items-center justify-center">
                     <div className="flex-1">
-                        <div className="font-montserrat text-[#1890FF] text-[26px] leading-[26px] sm:text-[28px] sm:leading-[28px] lg:text-[30px] lg:leading-[36px] mb-0">
-                            <div className="font-medium">IF YOU’RE ALREADY</div>
+                        <div className="font-misans text-[#1890FF] text-[26px] leading-[26px] sm:text-[28px] sm:leading-[28px] lg:text-[30px] lg:leading-[36px] mb-0">
+                            <div className="font-medium">如果你已经准备好</div>
                             <div className="font-medium">
-                                USING{" "}
-                                <span className="font-extrabold">refine,</span>
+                                使用{" "}
+                                <span className="font-extrabold">TP 融合 DNS,</span>
                             </div>
                             <div className="font-medium">
                                 <span className="font-extrabold tracking-tight">
-                                    SHARE
+                                    立即注册
                                 </span>{" "}
-                                YOUR USECASE &
+                                即可获得
                             </div>
                             <div className="font-medium">
-                                <span className="font-extrabold">INSPIRE</span>{" "}
-                                OTHERS
+                                <span className="font-extrabold">￥100 元</span>{" "}
+                                代金卷
                             </div>
                         </div>
-                        <div className="font-montserrat text-[16px] leading-[20px] tracking-tight text-[#2A2A42] mt-4 lg:mt-8 mb-0 max-w-[380px] ">
+                        <div className="font-misans text-[16px] leading-[20px] tracking-tight text-[#2A2A42] mt-4 lg:mt-8 mb-0 max-w-[380px] ">
                             <p>
-                                We are very happy to see how people are building
-                                great things with{" "}
-                                <strong className="text-bold">refine</strong>.
-                                Share your{" "}
+                                我们很乐意帮助您的网站提速。
+                                在使用{" "}
+                                <strong className="text-bold">TP 融合 DNS</strong> 后,
+                                您的网站的DNS解析速度将{" "}
                                 <span className="whitespace-nowrap">
-                                    use-case
+                                    最高提升10倍。
                                 </span>{" "}
-                                to get listed on the showcase page and receive{" "}
+                                邀请他人注册还有机会获赠{" "}
                                 <strong className="text-bold">
-                                    $100 Amazon Gift card
+                                    额外优惠券
                                 </strong>
-                                .
+                                。
                             </p>
                         </div>
                         <div className="flex items-center gap-8 mt-4 lg:mt-16">
                             <a
-                                href="https://refinedev.typeform.com/to/Ypm6r6oj"
+                                href="https://console.ttdns.net/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="shadow-startTiles  appearance-none flex items-center justify-center no-underline font-bold font-montserrat text-sm h-8 w-44 text-white text-center bg-gradient-to-l from-[#1890FF] to-[#47EBF5] border-0 rounded-[4px] cursor-pointer"
                             >
-                                ADD YOURS{" "}
-                                <span className="mx-1 font-normal">&</span>
-                                WIN
+                                立即注册
                             </a>
-
-                            {/* TODO - when UseCases page ready */}
-                            {/* <a
-                                href="https://refine.dev/docs/getting-started/overview/#use-cases"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="shadow-startTiles appearance-none flex items-center justify-center no-underline font-bold font-montserrat text-sm h-8 w-44 text-[#1890FF] text-center bg-white rounded-[4px] cursor-pointer border border-solid border-[#EDEDEF]"
-                            >
-                                View UseCases
-                            </a> */}
                         </div>
                     </div>
                     <div className="flex flex-1 w-full lg:w-auto">
