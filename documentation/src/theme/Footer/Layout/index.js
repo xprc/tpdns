@@ -160,16 +160,6 @@ export default function FooterLayout({
                                 </a>
                             ))}
                         </div>
-                        <div>
-                            <a
-                                href="https://beian.miit.gov.cn/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                京ICP备19007812号-5
-                            </a>
-		 	    
-		        </div>
                         <div className="font-misans flex h-[18px] flex-[3] items-center justify-center gap-3 text-xs text-[#9696B4] sm:justify-end">
                             <span>Join us on</span>
                             {socialLinks?.items?.map?.((socialLink, i) => (
