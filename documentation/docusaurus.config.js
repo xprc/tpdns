@@ -15,9 +15,6 @@ const siteConfig = {
     trailingSlash: true,
     favicon: "img/favicon.ico",
     scripts: ["https://platform.twitter.com/widgets.js"],
-    i18n: {
-        defaultLocale: 'zh-Hans',
-    },
     presets: [
         [
             "@docusaurus/preset-classic",
