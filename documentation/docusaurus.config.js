@@ -151,14 +151,9 @@ const siteConfig = {
                     position: 'right',
                 },
                 {
-                    href: "https://github.com/refinedev/refine",
+                    href: "https://github.com/ytmo",
                     position: "right",
                     className: "header-icon-link header-github-link",
-                },
-                {
-                    href: "https://discord.gg/refine",
-                    position: "right",
-                    className: "header-icon-link header-discord-link",
                 },
                 {
                     href: "https://twitter.com/zptmo",
