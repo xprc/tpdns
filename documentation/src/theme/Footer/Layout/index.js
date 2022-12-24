@@ -156,7 +156,15 @@ export default function FooterLayout({
                             >
                                 京ICP备19007812号-5
                             </a>
-
+		 	    <a
+                                target="_blank"
+                                href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802041005"
+				className="h-[22px]"
+                                rel="noopener noreferrer"
+                            >
+                                <img src="https://bucket.projectoms.com/wp-content/themes/CorePress/static/img/police.svg" />
+                                <p>京公网安备 11010802041005号</p>
+                            </a>
 		        </div>
                     </div>
                     <div className="flex flex-1 flex-col gap-6 sm:flex-row sm:gap-0">
