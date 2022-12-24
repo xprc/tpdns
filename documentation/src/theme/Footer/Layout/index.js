@@ -149,7 +149,7 @@ export default function FooterLayout({
                             {"  "}by TomsProject Inc.
                             
                             <a
-                                href="https://beian.miit.gov.cn/"
+                                href="https://google.com/"
                                 target="_blank"
                                 rel="noreferrer"
                             >
