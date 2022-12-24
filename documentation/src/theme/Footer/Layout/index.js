@@ -151,6 +151,7 @@ export default function FooterLayout({
                             <a
                                 href="https://beian.miit.gov.cn/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                     京ICP备19007812号-5
                             </a>
