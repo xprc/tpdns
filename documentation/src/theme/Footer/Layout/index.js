@@ -148,7 +148,7 @@ export default function FooterLayout({
                             />
                             {" "}by TomsProject Inc.
                         </div>
-                        <div>
+                        <div className="font-misans flex items-center justify-center text-[11px] leading-[12px] text-[#9696B4] sm:text-xs lg:justify-start">
                             <a
                                 href="https://beian.miit.gov.cn/"
                                 target="_blank"
