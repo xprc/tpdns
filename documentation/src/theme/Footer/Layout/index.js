@@ -146,8 +146,9 @@ export default function FooterLayout({
                                     rightReward();
                                 }}
                             />
-                            {"  "}by TomsProject Inc.
+                            {" "}by TomsProject Inc.
                         </div>
+                    </div>
                     <div className="flex flex-1 flex-col gap-6 sm:flex-row sm:gap-0">
                         <div className="font-misans flex h-[18px] flex-[2] items-center justify-center gap-4 text-xs text-[#9696B4] sm:justify-start lg:justify-end">
                             {legalLinks?.items?.map?.((item, i) => (
