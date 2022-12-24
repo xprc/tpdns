@@ -146,9 +146,9 @@ export default function FooterLayout({
                                     rightReward();
                                 }}
                             />
-                            {" "}by TomsProject Inc.
+                            {" "}&nbsp;&nbsp;by TomsProject Inc.
                         </div>
-                        <div className="font-misans flex items-center justify-center text-[11px] leading-[12px] text-[#9696B4] sm:text-xs lg:justify-start">
+                        <div className="font-misans flex items-center justify-center gap-4 text-[11px] leading-[12px] text-[#9696B4] sm:text-xs lg:justify-start">
                             <a
                                 href="https://beian.miit.gov.cn/"
                                 target="_blank"
@@ -164,7 +164,7 @@ export default function FooterLayout({
                                 rel="noopener noreferrer"
                             >
                                 <img className="h-[18px] w-[18px] float-left" src="https://bucket.projectoms.com/wp-content/themes/CorePress/static/img/police.svg" />
-                                <p>京公网安备 11010802041005号</p>
+                                京公网安备 11010802041005号
                             </a>
 		        </div>
                     </div>
