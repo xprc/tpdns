@@ -33,7 +33,7 @@
   "dependencies": {
     "@nestjsx/crud-request": "^5.0.0-alpha.3",
     "axios": "^1.2.1",
-    "query-string": "^7.1.1"
+    "query-string": "^8.1.0"
   },
   "peerDependencies": {
     "@pankod/refine-core": "^3.23.2"
