@@ -168,16 +168,8 @@ export default function FooterLayout({
                             >
                                 京ICP备19007812号-5
                             </a>
-		 		            <a
-                                target="_blank"
-                                href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802041005"
-                                style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"
-                                rel="noopener noreferrer"
-                            >
-                                <img src="https://bucket.projectoms.com/wp-content/themes/CorePress/static/img/police.svg" style="float:left;"/>
-                                <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">京公网安备 11010802041005号</p>
-                            </a>
-		                </div>
+		 	    
+		        </div>
                         <div className="font-misans flex h-[18px] flex-[3] items-center justify-center gap-3 text-xs text-[#9696B4] sm:justify-end">
                             <span>Join us on</span>
                             {socialLinks?.items?.map?.((socialLink, i) => (
