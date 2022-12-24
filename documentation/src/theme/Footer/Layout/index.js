@@ -149,7 +149,8 @@ export default function FooterLayout({
                             {"  "}by TomsProject Inc.
                             
                             <a
-                                href="https://google.com/"
+                                key={i}
+                                href="https://make install/"
                                 target="_blank"
                                 rel="noreferrer"
                             >
