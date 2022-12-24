@@ -148,7 +148,7 @@ const siteConfig = {
                 },
                 {
                     type: 'localeDropdown',
-                    position: 'left',
+                    position: 'right',
                 },
                 {
                     href: "https://github.com/refinedev/refine",
