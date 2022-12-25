@@ -16,7 +16,7 @@
         "prepare": "npm run build"
     },
     "devDependencies": {
-        "@types/inquirer-autocomplete-prompt": "^2.0.0",
+        "@types/inquirer-autocomplete-prompt": "^3.0.0",
         "@esbuild-plugins/node-resolve": "^0.1.4",
         "@types/dedent": "^0.7.0",
         "@types/figlet": "^1.5.5",
