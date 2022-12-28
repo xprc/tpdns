@@ -58,7 +58,7 @@
         "ora": "^6.1.2",
         "pluralize": "^8.0.0",
         "preferred-pm": "^3.0.3",
-        "semver-diff": "^3.1.1",
+        "semver-diff": "^4.0.0",
         "temp": "^0.9.4",
         "tslib": "^2.3.1"
     },
