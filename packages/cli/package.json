@@ -54,7 +54,7 @@
         "inquirer": "^8.2.5",
         "jscodeshift": "0.13.1",
         "node-env-type": "^0.0.8",
-        "node-fetch": "^2.6.7",
+        "node-fetch": "^3.3.0",
         "ora": "^6.1.2",
         "pluralize": "^8.0.0",
         "preferred-pm": "^3.0.3",
