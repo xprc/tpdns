@@ -35,7 +35,7 @@
     "dependencies": {
         "@nhost/nhost-js": "^1.7.0",
         "gql-query-builder": "^3.5.5",
-        "graphql": "^15.6.1",
+        "graphql": "^16.6.0",
         "graphql-ws": "^5.9.1",
         "lodash-es": "^4.17.21"
     },

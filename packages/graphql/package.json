@@ -34,7 +34,7 @@
   "dependencies": {
     "camelcase": "^7.0.1",
     "gql-query-builder": "^3.5.5",
-    "graphql": "^15.6.1",
+    "graphql": "^16.6.0",
     "graphql-request": "^5.1.0",
     "pluralize": "^8.0.0",
     "graphql-ws": "^5.9.1"
