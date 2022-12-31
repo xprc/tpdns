@@ -1,6 +1,6 @@
 {
     "extends": "./tsconfig.build.json",
-    "include": ["example"],
+    "include": ["packages", "example"],
     "compilerOptions": {
         "allowJs": false,
         "baseUrl": ".",
