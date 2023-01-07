@@ -23,7 +23,7 @@
         "axios": "^0.24.0",
         "clsx": "^1.1.1",
         "docusaurus-plugin-copy": "^0.1.1",
-        "dotenv": "^16.0.2",
+        "dotenv": "^16.0.3",
         "framer-motion": "^6.5.1",
         "postcss": "^8.4.16",
         "react": "^17.0.2",
