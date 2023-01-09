@@ -56,7 +56,7 @@
         "@types/fs-extra": "^11.0.0",
         "@types/gtag.js": "^0.0.12",
         "@types/react": "^17.0.19",
-        "@types/react-helmet": "^6.1.2",
+        "@types/react-helmet": "^6.1.6",
         "@types/react-router-dom": "^5.1.8",
         "esno": "^0.16.3",
         "fs-extra": "^11.1.0",
