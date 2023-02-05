@@ -23,7 +23,7 @@ const SectionReady = () => {
                     <strong className="block font-bold">
                         需要我们提供更多帮助?
                     </strong>
-                    申请 <strong className="font-bold">1对1</strong> 专家您完成配置!
+                    申请 <strong className="font-bold">1对1</strong> 专家协助您完成配置!
                 </p>
 
                 <a
