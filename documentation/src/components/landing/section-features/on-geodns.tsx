@@ -148,23 +148,26 @@ const OnGeoDNS: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
                         </motion.div>
                     ))}
                 </div>
-                <div className="font-montserrat text-base 2xl:text-xl leading-4 md:leading-8 font-medium text-[#2A2A42] text-center max-w-[860px]">
+                <div className="font-misans text-base 2xl:text-xl leading-4 md:leading-8 font-medium text-[#2A2A42] text-center max-w-[860px]">
                     <p className="mb-0">
-                        <strong className="font-bold">refine</strong> connects
-                        to any custom{" "}
-                        <strong className="font-bold">REST</strong> or{" "}
-                        <strong className="font-bold">GraphQL</strong> API.
+                        <strong className="font-bold">TPDNS</strong> 支持
+                        GeoDNS
                     </p>
                     <p className="mb-0">
-                        It also includes ready-made integrations for{" "}
-                        <strong className="font-bold">30+</strong> popular
-                        backend services.{" "}
+                        最高支持
+                        <strong className="font-bold">国内精确到区县</strong> 以及{" "}
+                        <strong className="font-bold">海外精确到城市</strong>
+                    </p>
+                    <p className="mb-0">
+                        *GeoDNS 具体配置取决于您选择的提供商和套餐{" "}
+                        您可以在
                         <Link
                             className="no-underline text-[#1890FF] visited:text-[#1890FF]"
-                            to="/integrations"
+                            to="/docs"
                         >
-                            (SEE ALL)
+                            此处
                         </Link>
+                        查看详细信息
                     </p>
                 </div>
             </div>
