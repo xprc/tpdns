@@ -40,7 +40,7 @@ export default function FooterLinksMultiColumn({ columns }) {
             {columns.map((column, i) => (
                 <Column key={i} column={column} />
             ))}
-            <div className="text-[#9696B4] text-xs leading-[24px] font-montserrat col-span-3 md:col-span-1 lg:col-span-2 max-w-[216px]">
+            <div className="text-[#9696B4] text-xs leading-[24px] font-misans col-span-3 md:col-span-1 lg:col-span-2 max-w-[216px]">
                 <div className="mb-1 font-extrabold tracking-wide">
                     {contactTitle}
                 </div>
