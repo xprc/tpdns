@@ -131,36 +131,35 @@ const OnAnycast: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
                           }
                 }
             >
-                <div className="flex flex-[1] flex-col font-montserrat font-medium text-base 2xl:text-xl 2xl:pr-16 text-[#2A2A42]">
+                <div className="flex flex-[1] flex-col font-misans font-medium text-base 2xl:text-xl 2xl:pr-16 text-[#2A2A42]">
                     <div className="lg:translate-y-[-80%]">
                         <p>
-                            Not ready for going headless yet?
+                            最重要的是<strong className="font-bold">自由</strong>
                             <div>
                                 <strong className="font-bold">
-                                    No problem.
+                                    您可以自定义 DNS 提供商!
                                 </strong>
                             </div>
                         </p>
 
                         <p>
-                            <strong className="font-bold">refine</strong>{" "}
-                            supports four powerful
+                            <strong className="font-bold">TPDNS</strong>{" "}
+                            支持多种 DNS 提供商组合
                             <div>
                                 <strong className="font-bold">
-                                    UI frameworks
-                                </strong>{" "}
-                                out-of-the box:
+                                    供您选择：
+                                </strong>
                             </div>
                         </p>
 
                         <div className="flex flex-col gap-2">
                             <div className="">
                                 <Link
-                                    to="/examples"
+                                    to="/docs"
                                     className="z-[1] border border-[#F0F2F5] bg-[#F6F6F9] border-solid rounded-[20px] h-7 w-[153px] flex items-center justify-between pl-3 py-1 pr-1"
                                 >
-                                    <div className="uppercase text-[#9696B4] text-[12px] leading-[12px] font-montserrat font-bold">
-                                        view examples
+                                    <div className="uppercase text-[#9696B4] text-[12px] leading-[12px] font-misans font-bold">
+                                        更多信息
                                     </div>
                                     <div className="flex items-center justify-center w-5 h-5 pl-px bg-white rounded-full">
                                         <ExternalLinkIcon className="h-2.5 w-2.5 text-[#9696B4]" />
@@ -210,17 +209,17 @@ const OnAnycast: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
                             translateZ: "10px",
                         }}
                     >
-                        <div className="font-montserrat flex justify-center bg-[#3FDCF7] text-white text-xs md:text-2xl font-extrabold px-2 py-1 rounded-md shadow-startTiles flex-shrink-0">
-                            ANT DESIGN
+                        <div className="font-misans flex justify-center bg-[#3FDCF7] text-white text-xs md:text-2xl font-extrabold px-2 py-1 rounded-md shadow-startTiles flex-shrink-0">
+                            DNSPod
                         </div>
-                        <div className="translate-x-[50%] md:translate-x-[40%] font-montserrat flex justify-center bg-[#1890FF] text-white text-xs md:text-2xl font-extrabold px-2 py-1 rounded-md shadow-startTiles flex-shrink-0">
-                            MATERIAL UI
+                        <div className="translate-x-[50%] md:translate-x-[40%] font-misans flex justify-center bg-[#1890FF] text-white text-xs md:text-2xl font-extrabold px-2 py-1 rounded-md shadow-startTiles flex-shrink-0">
+                            阿里云云解析
                         </div>
-                        <div className="translate-x-[120%] md:translate-x-[105%] font-montserrat flex justify-center bg-[#105FA9] text-white text-xs md:text-2xl font-extrabold px-2 py-1 rounded-md shadow-startTiles flex-shrink-0">
-                            MANTINE UI
+                        <div className="translate-x-[120%] md:translate-x-[105%] font-misans flex justify-center bg-[#105FA9] text-white text-xs md:text-2xl font-extrabold px-2 py-1 rounded-md shadow-startTiles flex-shrink-0">
+                            AWS Route 53
                         </div>
-                        <div className="translate-x-[180%] md:translate-x-[150%] font-montserrat flex justify-center bg-[#450D87] text-white text-xs md:text-2xl font-extrabold px-2 py-1 rounded-md shadow-startTiles flex-shrink-0">
-                            CHAKRA UI
+                        <div className="translate-x-[180%] md:translate-x-[150%] font-misans flex justify-center bg-[#450D87] text-white text-xs md:text-2xl font-extrabold px-2 py-1 rounded-md shadow-startTiles flex-shrink-0">
+                            Gcore DNS
                         </div>
                     </motion.div>
                 </motion.div>
