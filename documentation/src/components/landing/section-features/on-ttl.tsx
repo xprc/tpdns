@@ -129,11 +129,11 @@ const OnTTL: FC<Props> = ({ scrollYProgress, twBreakpoints }) => {
                     </motion.div>
                 </motion.div>
                 <div className="flex items-center col-start-2 col-end-12 row-start-4 mt-10 h-min row-end-8 md:col-start-8 md:col-end-12 md:row-start-3 md:row-end-6 lg:mt-0">
-                    <div className="max-w-[390px] font-montserrat ml-auto mr-auto lg:mr-0 lg:-ml-5 text-[#2A2A42]">
+                    <div className="max-w-[390px] font-misans ml-auto mr-auto lg:mr-0 lg:-ml-5 text-[#2A2A42]">
                         <p className="text-base 2xl:text-xl max-w-[360px]">
-                            <strong>refine</strong> gives you and your team{" "}
-                            <strong>100% control</strong> over your project and
-                            totally prevents vendor lock-in:
+                            <strong>TPDNS</strong> 最短支持{" "}
+                            <strong>1s</strong> TTL配置(Time To Live)
+                            修改立即全球生效
                         </p>
                         <p className="text-xs 2xl:text-base">
                             <ul>
