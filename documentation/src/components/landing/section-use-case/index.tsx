@@ -24,12 +24,11 @@ export const SectionUseCase: React.FC = () => {
                 <div className="flex-1 flex flex-col-reverse gap-4 lg:gap-0 lg:flex-row mx-auto max-w-[900px] w-full h-full items-center justify-center">
                     <div className="flex-1">
                         <div className="font-misans text-[#1890FF] text-[26px] leading-[26px] sm:text-[28px] sm:leading-[28px] lg:text-[30px] lg:leading-[36px] mb-0">
-                            <div className="font-medium">如果你已经准备好</div>
-                            <div className="font-medium">
-                                使用{" "}
+                            <div className="font-medium">如果你已准备好使用{" "}
                                 <span className="font-extrabold">TP 融合 DNS,</span>
                             </div>
                             <div className="font-medium">
+                                现在{" "}
                                 <span className="font-extrabold tracking-tight">
                                     立即注册
                                 </span>{" "}
