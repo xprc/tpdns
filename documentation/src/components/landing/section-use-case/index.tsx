@@ -61,7 +61,7 @@ export const SectionUseCase: React.FC = () => {
                                 href="https://console.ttdns.net/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="shadow-startTiles  appearance-none flex items-center justify-center no-underline font-bold font-montserrat text-sm h-8 w-44 text-white text-center bg-gradient-to-l from-[#1890FF] to-[#47EBF5] border-0 rounded-[4px] cursor-pointer"
+                                className="shadow-startTiles  appearance-none flex items-center justify-center no-underline font-bold font-misans text-sm h-8 w-44 text-white text-center bg-gradient-to-l from-[#1890FF] to-[#47EBF5] border-0 rounded-[4px] cursor-pointer"
                             >
                                 立即注册
                             </a>
