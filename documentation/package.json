@@ -25,7 +25,7 @@
         "docusaurus-plugin-copy": "^0.1.1",
         "dotenv": "^16.3.1",
         "framer-motion": "^6.5.1",
-        "postcss": "^8.4.24",
+        "postcss": "^8.4.26",
         "react": "^17.0.2",
         "react-archer": "^4.2.3",
         "react-dom": "^17.0.2",
