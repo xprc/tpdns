@@ -54,7 +54,7 @@
         "@docusaurus/module-type-aliases": "^2.4.1",
         "@tsconfig/docusaurus": "^2.0.0",
         "@types/fs-extra": "^11.0.1",
-        "@types/gtag.js": "^0.0.12",
+        "@types/gtag.js": "^0.0.13",
         "@types/react": "^17.0.19",
         "@types/react-helmet": "^6.1.6",
         "@types/react-router-dom": "^5.1.8",
