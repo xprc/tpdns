@@ -52,7 +52,7 @@
     },
     "devDependencies": {
         "@docusaurus/module-type-aliases": "^2.4.3",
-        "@tsconfig/docusaurus": "^2.0.0",
+        "@tsconfig/docusaurus": "^2.0.1",
         "@types/fs-extra": "^11.0.2",
         "@types/gtag.js": "^0.0.13",
         "@types/react": "^17.0.19",
